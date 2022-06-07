@@ -20,6 +20,9 @@ console.log("counts 'qu' as a consonant even when it's preceded by a consonant:"
 console.log(pig.translate("square") === "aresquay");
 console.log("translates many words:");
 console.log(pig.translate("the quick brown fox") === "ethay ickquay ownbray oxfay");
+console.log("translates initial capital letter:");
+console.log(pig.translate("Banana") === "Ananabay");
+
 
 // write a test asserting that capitalized words are still capitalized
 // (but with a different initial capital letter, of course) retain the
